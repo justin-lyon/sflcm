@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>UserStory__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>User Story Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Have all Acceptance Criteria been completed?&lt;/p&gt;</info>
+        <picklistValueName>Accepted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>AssignedTo__c</fieldNames>
+        <picklistValueName>In Progress</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Title__c</fieldNames>
+        <fieldNames>Description__c</fieldNames>
+        <fieldNames>Epic__c</fieldNames>
+        <info>&lt;p&gt;Not Started is for getting place holder stories into the system. Enter at least the Title, Description, and Epic.&lt;/p&gt;</info>
+        <picklistValueName>Not Started</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Sprint__c</fieldNames>
+        <fieldNames>Priority__c</fieldNames>
+        <fieldNames>LOE__c</fieldNames>
+        <fieldNames>AcceptanceCriteria__c</fieldNames>
+        <fieldNames>Description__c</fieldNames>
+        <info>&lt;p&gt;Is the description written in the correct format? &lt;/p&gt;&lt;p&gt;Do you have Acceptance Criteria and a Level of Effort?&lt;/p&gt;</info>
+        <picklistValueName>Ready</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

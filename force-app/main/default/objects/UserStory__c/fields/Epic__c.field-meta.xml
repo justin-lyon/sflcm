@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Epic__c</fullName>
+    <description>The epic that this User Story belongs to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Each User Story should belong to an Epic.</inlineHelpText>
+    <label>Epic</label>
+    <referenceTo>Epic__c</referenceTo>
+    <relationshipLabel>User Stories</relationshipLabel>
+    <relationshipName>UserStories</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

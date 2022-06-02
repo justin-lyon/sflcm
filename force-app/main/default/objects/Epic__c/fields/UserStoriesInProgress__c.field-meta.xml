@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UserStoriesInProgress__c</fullName>
+    <description>User Stories that are are least &quot;In Progress&quot; but not &quot;Accepted&quot;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>User Stories that are are least &quot;In Progress&quot; but not &quot;Accepted&quot;.</inlineHelpText>
+    <label>User Stories In Progress</label>
+    <summaryFilterItems>
+        <field>UserStory__c.Status__c</field>
+        <operation>equals</operation>
+        <value>In Progress, Dev Complete</value>
+    </summaryFilterItems>
+    <summaryForeignKey>UserStory__c.Epic__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

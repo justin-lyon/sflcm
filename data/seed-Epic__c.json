@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "sflcm__Epic__c",
+                "referenceId": "Epic__cRef1"
+            },
+            "sflcm__Description__c": "<p>As a Sales User</p><p>I want to use the Tradesmen Pricing Tool in Salesforce</p><p>So that I do not have to swivel to external systems.</p>",
+            "sflcm__Title__c": "Pricing Tool",
+            "sflcm__Phase__c": "@Phase__cRef4"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "sflcm__Sprint__c",
+                "referenceId": "Sprint__cRef1"
+            },
+            "Name": "Sprint 2",
+            "sflcm__StartDate__c": null,
+            "sflcm__EndDate__c": null
+        },
+        {
+            "attributes": {
+                "type": "sflcm__Sprint__c",
+                "referenceId": "Sprint__cRef2"
+            },
+            "Name": "Sprint 1",
+            "sflcm__StartDate__c": null,
+            "sflcm__EndDate__c": null
+        },
+        {
+            "attributes": {
+                "type": "sflcm__Sprint__c",
+                "referenceId": "Sprint__cRef3"
+            },
+            "Name": "Sprint 0",
+            "sflcm__StartDate__c": null,
+            "sflcm__EndDate__c": null
+        }
+    ]
+}

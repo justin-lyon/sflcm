@@ -1,0 +1,33 @@
+[
+    {
+        "sobject": "sflcm__Phase__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "seed-Phase__c.json"
+        ]
+    },{
+        "sobject": "sflcm__Sprint__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "seed-Sprint__c.json"
+        ]
+    },
+    {
+        "sobject": "sflcm__Epic__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "seed-Epic__c.json"
+        ]
+    },
+    {
+        "sobject": "sflcm__UserStory__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "seed-UserStory__c.json"
+        ]
+    }
+]

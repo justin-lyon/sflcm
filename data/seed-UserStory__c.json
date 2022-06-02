@@ -1,0 +1,36 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "sflcm__UserStory__c",
+                "referenceId": "UserStory__cRef1"
+            },
+            "sflcm__AcceptanceCriteria__c": "1. Document the Pricing Tool workflow\r\n2. Document the Pricing Tool ERD",
+            "sflcm__AcceptedDate__c": "2022-05-29",
+            "sflcm__Description__c": "<p>As a developer, </p><p>I want to understand the Pricing Tool in Accuterm,</p><p>So I can reproduce it in Salesforce.</p>",
+            "sflcm__Epic__c": "@Epic__cRef1",
+            "sflcm__LOE__c": "3",
+            "sflcm__Priority__c": "High",
+            "sflcm__Status__c": "Accepted",
+            "sflcm__Title__c": "Pricing Tool Discovery",
+            "sflcm__Type__c": "Spike",
+            "sflcm__Sprint__c": "@Sprint__cRef3"
+        },
+        {
+            "attributes": {
+                "type": "sflcm__UserStory__c",
+                "referenceId": "UserStory__cRef2"
+            },
+            "sflcm__AcceptanceCriteria__c": null,
+            "sflcm__AcceptedDate__c": "2022-05-30",
+            "sflcm__Description__c": "<p>As a Sales User,</p><p>I want to see a mockup UI of the Salesforce Pricing Tool,</p><p>So I can prepare to build the Pricing Tool in Salesforce.</p>",
+            "sflcm__Epic__c": "@Epic__cRef1",
+            "sflcm__LOE__c": "3",
+            "sflcm__Priority__c": "Medium",
+            "sflcm__Status__c": "Accepted",
+            "sflcm__Title__c": "Pricing Tool UI Mockup",
+            "sflcm__Type__c": "Spike",
+            "sflcm__Sprint__c": "@Sprint__cRef3"
+        }
+    ]
+}

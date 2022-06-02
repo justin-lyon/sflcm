@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LOE__c</fullName>
+    <description>The Level of Effort for a User Story.
+1 is a few hours. 2 is about a day. 3 is more than one day. 5 is about a week. 8 is about two weeks. 13 and above should be reserved as red flags, to be used when a story needs more discussion or to be broken down into smaller pieces.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Level of Effort for a User Story.
+1 is a few hours. 2 is about a day. 3 is more than one day. 5 is about a week. 8 is about two weeks. 13 and above should be reserved as red flags, to be used when a story needs more discussion or to be broken down into smaller pieces.</inlineHelpText>
+    <label>LOE</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>1</label>
+            </value>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>2</label>
+            </value>
+            <value>
+                <fullName>3</fullName>
+                <default>false</default>
+                <label>3</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <default>false</default>
+                <label>5</label>
+            </value>
+            <value>
+                <fullName>8</fullName>
+                <default>false</default>
+                <label>8</label>
+            </value>
+            <value>
+                <fullName>13</fullName>
+                <default>false</default>
+                <label>13</label>
+            </value>
+            <value>
+                <fullName>21</fullName>
+                <default>false</default>
+                <label>21</label>
+            </value>
+            <value>
+                <fullName>34</fullName>
+                <default>false</default>
+                <label>34</label>
+            </value>
+            <value>
+                <fullName>55</fullName>
+                <default>false</default>
+                <label>55</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

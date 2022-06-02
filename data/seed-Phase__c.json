@@ -1,0 +1,40 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "sflcm__Phase__c",
+                "referenceId": "Phase__cRef1"
+            },
+            "Name": "Backlog",
+            "sflcm__StartDate__c": null,
+            "sflcm__EndDate__c": null
+        },
+        {
+            "attributes": {
+                "type": "sflcm__Phase__c",
+                "referenceId": "Phase__cRef2"
+            },
+            "Name": "Technical Debt",
+            "sflcm__StartDate__c": null,
+            "sflcm__EndDate__c": null
+        },
+        {
+            "attributes": {
+                "type": "sflcm__Phase__c",
+                "referenceId": "Phase__cRef3"
+            },
+            "Name": "Phase 3",
+            "sflcm__StartDate__c": null,
+            "sflcm__EndDate__c": null
+        },
+        {
+            "attributes": {
+                "type": "sflcm__Phase__c",
+                "referenceId": "Phase__cRef4"
+            },
+            "Name": "Phase 2",
+            "sflcm__StartDate__c": null,
+            "sflcm__EndDate__c": null
+        }
+    ]
+}
